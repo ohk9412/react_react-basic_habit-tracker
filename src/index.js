@@ -10,7 +10,8 @@ import { getAllByAltText } from '@testing-library/dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <SimpleHabit />
+    {/* <SimpleHabit /> */}
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
